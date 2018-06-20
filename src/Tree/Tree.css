@@ -1,0 +1,211 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #149f9871;
+    padding: 10px;
+}
+.games-column {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    /* border: 1px solid lightgreen; */
+    justify-content: space-around;
+
+}
+.games {
+    /* border: 1px solid rgba(255, 232, 232, 0.561); */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(58, 58, 58); */
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+    /* background-color: rgb(219, 255, 219); */
+    /* margin: 4px; */ 
+    padding: 2px 0px 6px 0px;
+    border-radius: 3px;
+    
+}
+
+.games:hover {
+    background-color: #9c2456;
+    transition: .6s;
+}
+.country {
+    border: 0.5px solid rgba(1, 101, 172, 0.39);
+
+    cursor: pointer;
+    padding-left: 55px;
+    padding-top: 5px;
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: rgb(233, 224, 224);
+    height: 30px;
+    font-size: 13px;
+    background-color: #10292e;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 4px;
+}
+
+.Russia {
+    background-image: url("../assets/flags/ru.png");
+}
+.Arabia {
+    background-image: url("../assets/flags/sa.png");
+}
+.Egypt {
+    background-image: url("../assets/flags/eg.png");  
+}
+.Uruguay {
+    background-image: url("../assets/flags/uy.png")
+}
+.Morocco {
+    background-image: url("../assets/flags/ma.png");
+}
+.Iran {
+    background-image: url("../assets/flags/ir.png");
+}
+.Portugal {
+    background-image: url("../assets/flags/pt.png");
+}
+.Spain {
+    background-image: url("../assets/flags/es.png");
+}
+.France {
+    background-image: url("../assets/flags/fr.png");
+}
+.Australia {
+    background-image: url("../assets/flags/au.png");
+}
+.Argentina {
+    background-image: url("../assets/flags/ar.png")
+}
+.Iceland {
+    background-image: url("../assets/flags/is.png");
+}
+.Peru {
+    background-image: url("../assets/flags/pe.png");
+}
+.Denmark {
+    background-image: url("../assets/flags/dk.png");
+}
+.Croatia {
+    background-image: url("../assets/flags/hr.png");
+}
+.Nigeria {
+    background-image: url("../assets/flags/ng.png");
+}
+.Costa-Rica {
+    background-image: url("../assets/flags/cr.png");
+}
+.Serbia {
+    background-image: url("../assets/flags/rs.png");
+}
+.Germany {
+    background-image: url("../assets/flags/de.png");
+}
+.Mexico {
+    background-image: url("../assets/flags/mx.png");
+}
+.Brazil {
+    background-image: url("../assets/flags/br.png");
+}
+.Switzerland {
+    background-image: url("../assets/flags/ch.png");
+}
+.Sweden {
+    background-image: url("../assets/flags/se.png");
+}
+.Korea {
+    background-image: url("../assets/flags/kr.png");
+}
+.Poland {
+    background-image: url("../assets/flags/pl.png")
+}
+.Senegal {
+    background-image: url("../assets/flags/sn.png");
+}
+.Colombia {
+    background-image: url("../assets/flags/co.png");
+}
+.Japan {
+    background-image: url("../assets/flags/jp.png");
+}
+.Panama {
+    background-image: url("../assets/flags/pa.png");
+}
+.Belgium {
+    background-image: url("../assets/flags/be.png");
+}
+.Tunisia {
+    background-image: url("../assets/flags/tn.png");
+}
+.England {
+    background-image: url("../assets/flags/gb.png");
+}
+
+@media all and (min-width: 1035px) and (max-width: 1200px) {
+    .country {
+        font-size: 9px;
+        height: 26px;
+        padding-left: 46px;
+        /* background-size: 100%; */
+
+    }
+}
+
+@media all and (min-width: 880px) and (max-width: 1034px) {
+    .country {
+        font-size: 9px;
+        height: 20px;
+        padding-left: 36px;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 899px) {
+    .country {
+        font-size: 9px;
+        height: 15px;
+        padding-left: 27px;
+        padding-top:1px;
+
+    }
+}
+@media all and (min-width: 560px) and (max-width: 810px) {
+    .country {
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 9px;
+        height: 15px;
+        padding-left: 27px;
+        padding-top:1px;
+
+    }
+}
+@media all and (min-width: 460px) and (max-width: 600px) {
+    .country {
+        font-size: 9px;
+        height: 15px;
+        padding-left: 27px;
+        padding-top:1px;
+
+    }
+}
+
+@media (max-width: 560px)  {
+    .country {
+        color: #0000009f;
+        height: 18px;
+        padding-left: 15px;
+        /* padding-top: 1px; */
+        background-size: contain;
+        width: 30px;
+        font-size: 0%;
+    }
+}
